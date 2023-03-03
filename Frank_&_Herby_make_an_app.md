@@ -5,7 +5,9 @@
   ``` $ rustscan IP ```
 3. Nmap scan:
 ``` nmap -sV -sC -Pn -n -A -p (open ports) IP ```
-4. Use dirsearch to find crdentials
+4. Use dirsearch to find credentials (IP:31337/.git-credentials)
+5. Download the credentials file and decode with online URL decoder.
+6. Then got the ssh username and password.
 
 ### Privilege Escalation with kubernetes Microk8s:
 ```
